@@ -27,7 +27,7 @@ printf("******************************** \n");
         Sum[i][j] += (A[i][k] * B[k][j]);
       }}}
   // output
-  printf("\t-----Answer-----\n");
+  printf("\t-------Answer-------\n");
    for(i=0; i<5; i++){
       for(j=0;j<3;j++){
       printf("\t%-5d",Sum[i][j]);
